@@ -1,0 +1,8 @@
+# main root gitignore  for any wordpress website that you use as a dev environment 
+*
+!*/
+!/wp-content/plugins/yourplugin
+!/wp-content/plugins/yourplugin/**
+!/wp-content/plugins/your-other-plugin
+!/wp-content/plugins/your-other-plugin/**
+!/.gitignore
